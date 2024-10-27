@@ -21,7 +21,7 @@ public class ChooseYourPath
             }
             else
             {
-                System.out.print("You've decided to go to your friends house.");
+                System.out.println("You've decided to go to your friends house.");
                 System.out.print("Choices: \n1. Watch a movie\n2. Play video games\n3. Go to the gym\n");
                 String actionOfChoice = sc.nextLine();
 
@@ -51,7 +51,7 @@ public class ChooseYourPath
             }
             else
             {
-                System.out.print("You've decided to go to the bar.");
+                System.out.println("You've decided to go to the bar.");
                 System.out.print("Alcohol Choices: \n1. Beer\n2. Wine\n3. Tequila\n");
                 String actionOfChoice = sc.nextLine();
 
@@ -81,7 +81,7 @@ public class ChooseYourPath
             }
             else
             {
-                System.out.print("You've decided to go to the casino.");
+                System.out.println("You've decided to go to the casino.");
                 System.out.print("Game Choices: \n1. Blackjack\n2. Poker\n3. Roulette\n");
                 String actionOfChoice = sc.nextLine();
 
